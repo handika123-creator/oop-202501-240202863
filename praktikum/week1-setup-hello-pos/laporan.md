@@ -59,7 +59,8 @@ public class HelloProcedural {
 ```
 
 2. OOP
-``` // HelloOOP.java
+```java
+// contoh
 class Mahasiswa {
  String nama; int nim;
  Mahasiswa(String n, int u){ nama=n; nim=u; } void sapa(){ System.out.println("Halo word i am, " + nama +"-"+ nim); }}
@@ -68,17 +69,19 @@ public class HelloOOP {
  Mahasiswa m = new Mahasiswa("HANDIKA DWI ARDIYANTO", 240202863);
  m.sapa();
  }
-} ``` //
+}
+```
 
 3. Functional
-``` import java.util.function.BiConsumer;
+```java
 public class HelloFunctional {
  public static void main(String[] args) { BiConsumer<String,Integer> sapa =
  (nama, nim) -> System.out.println("Halo Word I am, " + nama + "-" + nim);
  sapa.accept("HANDIKA DWI ARDIYANTO", 240202863);
  }
 }
-) ``` //
+)
+```
 
 ---**
 

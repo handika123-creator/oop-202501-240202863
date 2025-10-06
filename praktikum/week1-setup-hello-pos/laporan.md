@@ -87,14 +87,15 @@ public class HelloFunctional {
 
 ## Hasil Eksekusi
 
-(Sertakan screenshot hasil eksekusi program.  
+/// (Sertakan screenshot hasil eksekusi program.  
 ![Screenshot hasil](screenshots/Screenshot 2025-10-01 121933 PROSEDURAL.png)
 ![Screenshot hasil](screenshots/Screenshot 2025-10-01 124709 OOP.png)
 ![Screenshot hasil](screenshots/Screenshot 2025-10-01 130826 functional.png)
-)
+) ///
 ---
 
 ## Analisis
+
 ( 1. Prosedural: Mudah dipahami, cocok untuk program kecil, tetapi sulit dipelihara untuk aplikasi besar.
    2. OOP: Lebih terstruktur, mendukung modularisasi, dan cocok untuk program kompleks.
    3. Fungsional: Lebih ringkas, minim efek samping, tetapi tidak selalu mudah dipahami    bagi pemula.

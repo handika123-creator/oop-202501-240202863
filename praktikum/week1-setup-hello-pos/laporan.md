@@ -54,7 +54,7 @@ public class HelloProcedural {
 
       System.out.println("hello word, im " + nama +"-"+ nim );
   ** }
-} ```
+} ``` //
 
 2. OOP
 ``` // HelloOOP.java
@@ -66,7 +66,7 @@ public class HelloOOP {
  Mahasiswa m = new Mahasiswa("HANDIKA DWI ARDIYANTO", 240202863);
  m.sapa();
  }
-} ```
+} ``` //
 
 3. Functional
 ``` import java.util.function.BiConsumer;
@@ -76,7 +76,7 @@ public class HelloFunctional {
  sapa.accept("HANDIKA DWI ARDIYANTO", 240202863);
  }
 }
-) ```
+) ``` //
 
 ---**
 

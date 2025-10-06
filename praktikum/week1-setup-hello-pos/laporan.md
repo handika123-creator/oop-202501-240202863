@@ -86,6 +86,7 @@ public class HelloFunctional {
 ---**
 
 ## Hasil Eksekusi
+
 (Sertakan screenshot hasil eksekusi program.  
 ![Screenshot hasil](screenshots/Screenshot 2025-10-01 121933 PROSEDURAL.png)
 ![Screenshot hasil](screenshots/Screenshot 2025-10-01 124709 OOP.png)

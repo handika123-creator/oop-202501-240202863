@@ -87,12 +87,12 @@ public class HelloFunctional {
 
 ## Hasil Eksekusi
 
-/// (Sertakan screenshot hasil eksekusi program.  
+(Sertakan screenshot hasil eksekusi program.  
 ![Screenshot hasil](screenshots/Screenshot 2025-10-01 121933 PROSEDURAL.png)
 ![Screenshot hasil](screenshots/Screenshot 2025-10-01 124709 OOP.png)
 ![Screenshot hasil](screenshots/Screenshot 2025-10-01 130826 functional.png)
-) ///
----
+)
+
 
 ## Analisis
 
@@ -101,7 +101,7 @@ public class HelloFunctional {
    3. Fungsional: Lebih ringkas, minim efek samping, tetapi tidak selalu mudah dipahami    bagi pemula.
    4. Kendala: Tidak ada kendala berarti, hanya perlu ketelitian dalam penulisan sintaks Java.  
 )
----
+
 
 ## Kesimpulan
 (1. Tiga paradigma pemrograman memberi cara pandang berbeda dalam menyelesaikan masalah.

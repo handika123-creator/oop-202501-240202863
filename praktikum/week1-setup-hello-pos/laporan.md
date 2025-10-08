@@ -9,7 +9,7 @@ Topik: ["Paradigma Pemrograman: Prosedural, OOP, dan Fungsional"]
 ---
 
 ## Tujuan
-(Mahasiswa memahami perbedaan pendekatan prosedural, OOP, dan fungsional.)
+Mahasiswa memahami perbedaan pendekatan prosedural, OOP, dan fungsional.
 
 ---
 

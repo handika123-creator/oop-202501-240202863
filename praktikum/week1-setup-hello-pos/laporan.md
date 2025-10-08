@@ -81,7 +81,7 @@ public class HelloFunctional {
 )
 ```
 
----**
+---
 
 ## Hasil Eksekusi
 
@@ -100,7 +100,7 @@ Fungtional
 
 <img width="960" height="540" alt="Screenshot 2025-10-01 130826 functional" src="https://github.com/user-attachments/assets/d2f28468-5e04-4d08-94c4-11881299c0ab" />
 
-)
+
 
 
 ## Analisis
@@ -115,7 +115,7 @@ Fungtional
 ## Kesimpulan
 1. Tiga paradigma pemrograman memberi cara pandang berbeda dalam menyelesaikan masalah.
 2. Prosedural cocok untuk program sederhana, OOP untuk aplikasi besar, fungsional untuk kode matematis atau deklaratif.
-3. Praktikum ini juga melatih penggunaan GitHub untuk menyimpan dan berbagi kode.)
+3. Praktikum ini juga melatih penggunaan GitHub untuk menyimpan dan berbagi kode.
 
 ---
 

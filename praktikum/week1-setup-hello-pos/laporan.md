@@ -71,8 +71,7 @@ public class HelloOOP {
 
 3. Functional
 ```java
-Fungtional
-
+// Fungtional
 public class HelloFunctional {
  public static void main(String[] args) { BiConsumer<String,Integer> sapa =
  (nama, nim) -> System.out.println("Halo Word I am, " + nama + "-" + nim);

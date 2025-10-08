@@ -47,7 +47,7 @@ Fungsional → pakai interface fungsional (BiFunction) atau lambda expression.)
 ## Kode Program
 (1. Prosedural
 ```java
-/// contoh
+/// Prosedural
 public class HelloProcedural {
    public static void main(String[] args) {
       String nim = "240202863";
@@ -60,7 +60,7 @@ public class HelloProcedural {
 
 2. OOP
 ```java
-// contoh
+// oop
 class Mahasiswa {
  String nama; int nim;
  Mahasiswa(String n, int u){ nama=n; nim=u; } void sapa(){ System.out.println("Halo word i am, " + nama +"-"+ nim); }}
@@ -74,6 +74,7 @@ public class HelloOOP {
 
 3. Functional
 ```java
+Fungtional
 public class HelloFunctional {
  public static void main(String[] args) { BiConsumer<String,Integer> sapa =
  (nama, nim) -> System.out.println("Halo Word I am, " + nama + "-" + nim);

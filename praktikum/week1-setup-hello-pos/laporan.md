@@ -35,12 +35,9 @@ Mahasiswa memahami perbedaan pendekatan prosedural, OOP, dan fungsional.
 3. Menjalankan program menggunakan java <nama_file>.java.
 4. Commit message yang digunakan:
 Isi tiap file dengan kode sesuai paradigma:
-
-Prosedural → pakai main() dengan urutan instruksi langsung.
-
-OOP → buat class Mahasiswa dengan constructor dan method sapa().
-
-Fungsional → pakai interface fungsional (BiFunction) atau lambda expression.)
+      Prosedural → pakai main() dengan urutan instruksi langsung.
+      OOP → buat class Mahasiswa dengan constructor dan method sapa().
+      Fungsional → pakai interface fungsional (BiFunction) atau lambda expression.)
 
 ---
 

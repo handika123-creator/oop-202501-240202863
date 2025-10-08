@@ -89,11 +89,17 @@ public class HelloFunctional {
 ## Hasil Eksekusi
 
 (Sertakan screenshot hasil eksekusi program.  
-![Screenshot hasil](screenshots/Screenshot 2025-10-01 121933 PROSEDURAL.png) 
+Prosedural
+<img width="960" height="540" alt="Screenshot 2025-10-01 121933 PROSEDURAL" src="https://github.com/user-attachments/assets/6ec6ddc1-81a2-4f13-a8b0-6a3f4ddd4db8" />
 
-![Screenshot hasil](screenshots/Screenshot 2025-10-01 124709 OOP.png) 
 
-![Screenshot hasil](screenshots/Screenshot 2025-10-01 130826 functional.png)
+OOP
+<img width="960" height="540" alt="Screenshot 2025-10-01 124709 OOP" src="https://github.com/user-attachments/assets/f94ec60a-2077-4e9a-b0e6-aa8a49bd607c" />
+
+
+Fungtional
+<img width="960" height="540" alt="Screenshot 2025-10-01 130826 functional" src="https://github.com/user-attachments/assets/d2f28468-5e04-4d08-94c4-11881299c0ab" />
+
 )
 
 

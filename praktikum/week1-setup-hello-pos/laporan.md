@@ -9,12 +9,12 @@ Topik: ["Paradigma Pemrograman: Prosedural, OOP, dan Fungsional"]
 ---
 
 ## Tujuan
-(Mahasiswa memahami perbedaan pendekatan prosedural, OOP, dan fungsional.)
+Mahasiswa memahami perbedaan pendekatan prosedural, OOP, dan fungsional.
 
 ---
 
 ## Dasar Teori
-( 1. Paradigma Prosedural: Menyelesaikan masalah dengan urutan langkah (algoritma) berupa prosedur atau fungsi.
+1. Paradigma Prosedural: Menyelesaikan masalah dengan urutan langkah (algoritma) berupa prosedur atau fungsi.
 
 2. Paradigma OOP (Object Oriented Programming): Berfokus pada object yang memiliki atribut (data) dan method (fungsi).
 
@@ -22,12 +22,12 @@ Topik: ["Paradigma Pemrograman: Prosedural, OOP, dan Fungsional"]
 
 4. Tiap paradigma memiliki kelebihan dan kekurangan tergantung skala dan tujuan program.
 
-5. GitHub digunakan untuk menyimpan dan berbagi kode dengan sistem kontrol versi.)
+5. GitHub digunakan untuk menyimpan dan berbagi kode dengan sistem kontrol versi.
 
 ---
 
 ## Langkah Praktikum
-(1. Membuat project baru dan menyiapkan 3 file java:
+1. Membuat project baru dan menyiapkan 3 file java:
       helloProcedural.java
       helloOOP.java
       helloFunctional.java
@@ -35,18 +35,16 @@ Topik: ["Paradigma Pemrograman: Prosedural, OOP, dan Fungsional"]
 3. Menjalankan program menggunakan java <nama_file>.java.
 4. Commit message yang digunakan:
 Isi tiap file dengan kode sesuai paradigma:
-
-Prosedural → pakai main() dengan urutan instruksi langsung.
-
-OOP → buat class Mahasiswa dengan constructor dan method sapa().
-
-Fungsional → pakai interface fungsional (BiFunction) atau lambda expression.)
+      1. Prosedural → pakai main() dengan urutan instruksi langsung.
+      2. OOP → buat class Mahasiswa dengan constructor dan method sapa().
+      3. Fungsional → pakai interface fungsional (BiFunction) atau lambda expression.)
 
 ---
 
 ## Kode Program
-(1. Prosedural
-// HelloProcedural.java
+1. Prosedural
+```java
+/// Prosedural
 public class HelloProcedural {
    public static void main(String[] args) {
       String nim = "240202863";
@@ -55,8 +53,11 @@ public class HelloProcedural {
       System.out.println("hello word, im " + nama +"-"+ nim );
    }
 }
+```
+
 2. OOP
-// HelloOOP.java
+```java
+// oop
 class Mahasiswa {
  String nama; int nim;
  Mahasiswa(String n, int u){ nama=n; nim=u; } void sapa(){ System.out.println("Halo word i am, " + nama +"-"+ nim); }}
@@ -66,8 +67,11 @@ public class HelloOOP {
  m.sapa();
  }
 }
+```
+
 3. Functional
-import java.util.function.BiConsumer;
+```java
+// Fungtional
 public class HelloFunctional {
  public static void main(String[] args) { BiConsumer<String,Integer> sapa =
  (nama, nim) -> System.out.println("Halo Word I am, " + nama + "-" + nim);
@@ -75,33 +79,48 @@ public class HelloFunctional {
  }
 }
 )
+```
+
 ---
 
 ## Hasil Eksekusi
-(Sertakan screenshot hasil eksekusi program.  
-![Screenshot hasil](screenshots/Screenshot 2025-10-01 121933 PROSEDURAL.png)
-![Screenshot hasil](screenshots/Screenshot 2025-10-01 124709 OOP.png)
-![Screenshot hasil](screenshots/Screenshot 2025-10-01 130826 functional.png)
-)
----
+
+
+Prosedural
+
+<img width="960" height="540" alt="Screenshot 2025-10-01 121933 PROSEDURAL" src="https://github.com/user-attachments/assets/6ec6ddc1-81a2-4f13-a8b0-6a3f4ddd4db8" />
+
+
+OOP
+
+<img width="960" height="540" alt="Screenshot 2025-10-01 124709 OOP" src="https://github.com/user-attachments/assets/f94ec60a-2077-4e9a-b0e6-aa8a49bd607c" />
+
+
+Fungtional
+
+<img width="960" height="540" alt="Screenshot 2025-10-01 130826 functional" src="https://github.com/user-attachments/assets/d2f28468-5e04-4d08-94c4-11881299c0ab" />
+
+
+
 
 ## Analisis
-( 1. Prosedural: Mudah dipahami, cocok untuk program kecil, tetapi sulit dipelihara untuk aplikasi besar.
-   2. OOP: Lebih terstruktur, mendukung modularisasi, dan cocok untuk program kompleks.
-   3. Fungsional: Lebih ringkas, minim efek samping, tetapi tidak selalu mudah dipahami    bagi pemula.
-   4. Kendala: Tidak ada kendala berarti, hanya perlu ketelitian dalam penulisan sintaks Java.  
-)
----
+
+1. Prosedural: Mudah dipahami, cocok untuk program kecil, tetapi sulit dipelihara untuk aplikasi besar.
+2. OOP: Lebih terstruktur, mendukung modularisasi, dan cocok untuk program kompleks.
+3. Fungsional: Lebih ringkas, minim efek samping, tetapi tidak selalu mudah dipahami    bagi pemula.
+4. Kendala: Tidak ada kendala berarti, hanya perlu ketelitian dalam penulisan sintaks Java.  
+
+
 
 ## Kesimpulan
-(1. Tiga paradigma pemrograman memberi cara pandang berbeda dalam menyelesaikan masalah.
-   2. Prosedural cocok untuk program sederhana, OOP untuk aplikasi besar, fungsional untuk kode matematis atau deklaratif.
-   3. Praktikum ini juga melatih penggunaan GitHub untuk menyimpan dan berbagi kode.)
+1. Tiga paradigma pemrograman memberi cara pandang berbeda dalam menyelesaikan masalah.
+2. Prosedural cocok untuk program sederhana, OOP untuk aplikasi besar, fungsional untuk kode matematis atau deklaratif.
+3. Praktikum ini juga melatih penggunaan GitHub untuk menyimpan dan berbagi kode.
 
 ---
 
 ## Quiz
-(1. [Apakah OOP selalu lebih baik dari prosedural? ]  
+1. [Apakah OOP selalu lebih baik dari prosedural? ]  
    **Jawaban:** …Tidak selalu, OOP cocok untuk sistem besar, prosedural lebih sederhana untuk program kecil.  
 
 2. [Kapan functional programming lebih cocok digunakandibanding OOP atau prosedural? ]  

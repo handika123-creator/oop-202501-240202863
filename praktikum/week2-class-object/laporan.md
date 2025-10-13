@@ -118,8 +118,9 @@ public class MainProduk {
     }
 }
 ---
+
 ```
-## Hasil Eksekusi
+**## Hasil Eksekusi
 (Sertakan screenshot hasil eksekusi program.  
 praktikum/week2-class-object/screenshots/Screenshot 2025-10-09 210230.png
 )
@@ -133,7 +134,7 @@ praktikum/week2-class-object/screenshots/Screenshot 2025-10-09 210230.png
 -Class MainProduk menjadi driver class untuk menjalankan seluruh logika.
 -Tidak ada error saat program dijalankan.
 -Kendala kecil: perlu memastikan struktur package sesuai agar import berjalan lancar di IDE seperti IntelliJ atau Eclipse.
-)
+)**
 ---
 
 ## Kesimpulan

@@ -119,8 +119,7 @@ public class MainProduk {
 }
 ---
 
-```
-**## Hasil Eksekusi
+## Hasil Eksekusi
 (Sertakan screenshot hasil eksekusi program.  
 praktikum/week2-class-object/screenshots/Screenshot 2025-10-09 210230.png
 )

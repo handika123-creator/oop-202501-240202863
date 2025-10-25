@@ -1,4 +1,4 @@
-# Laporan Praktikum Minggu 1 (sesuaikan minggu ke berapa?)
+# Laporan Praktikum Minggu 1
 Topik: ["Paradigma Pemrograman: Prosedural, OOP, dan Fungsional"]
 
 ## Identitas
@@ -37,7 +37,7 @@ Mahasiswa memahami perbedaan pendekatan prosedural, OOP, dan fungsional.
 Isi tiap file dengan kode sesuai paradigma:
       1. Prosedural → pakai main() dengan urutan instruksi langsung.
       2. OOP → buat class Mahasiswa dengan constructor dan method sapa().
-      3. Fungsional → pakai interface fungsional (BiFunction) atau lambda expression.)
+      3. Fungsional → pakai interface fungsional (BiFunction) atau lambda expression.
 
 ---
 
@@ -78,7 +78,7 @@ public class HelloFunctional {
  sapa.accept("HANDIKA DWI ARDIYANTO", 240202863);
  }
 }
-)
+
 ```
 
 ---
@@ -88,17 +88,17 @@ public class HelloFunctional {
 
 Prosedural
 
-<img width="960" height="540" alt="Screenshot 2025-10-01 121933 PROSEDURAL" src="https://github.com/user-attachments/assets/6ec6ddc1-81a2-4f13-a8b0-6a3f4ddd4db8" />
+![Screenshot hasil](/praktikum/week1-setup-hello-pos/screenshots/Screenshot%202025-10-01%20121933%20PROSEDURAL.png)
 
 
 OOP
 
-<img width="960" height="540" alt="Screenshot 2025-10-01 124709 OOP" src="https://github.com/user-attachments/assets/f94ec60a-2077-4e9a-b0e6-aa8a49bd607c" />
+![Screenshot hasil](/praktikum/week1-setup-hello-pos/screenshots/Screenshot%202025-10-01%20124709%20OOP.png)
 
 
 Fungtional
 
-<img width="960" height="540" alt="Screenshot 2025-10-01 130826 functional" src="https://github.com/user-attachments/assets/d2f28468-5e04-4d08-94c4-11881299c0ab" />
+![Screenshot hasil](/praktikum/week1-setup-hello-pos/screenshots/Screenshot%202025-10-01%20130826%20functional.png)
 
 
 

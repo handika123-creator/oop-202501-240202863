@@ -1,4 +1,4 @@
-# Laporan Praktikum Minggu 2.
+# Laporan Praktikum Minggu 2
 Topik: Class dan Object
 
 ## Identitas
@@ -118,13 +118,12 @@ public class MainProduk {
     }
 }
 ---
-
+```
 ## Hasil Eksekusi
-(Sertakan screenshot hasil eksekusi program.  
-praktikum/week2-class-object/screenshots/Screenshot 2025-10-09 210230.png
-)
+![Screenshot hasil](/praktikum/week2-class-object/screenshots/Screenshot%202025-10-09%20210230.png)
 ---
-
+```
+```
 ## Analisis
 -Program ini terdiri dari tiga class: Produk, CreditBy, dan MainProduk.
 -Class Produk menerapkan enkapsulasi, di mana atribut bersifat private dan diakses melalui getter dan setter.
@@ -136,12 +135,15 @@ praktikum/week2-class-object/screenshots/Screenshot 2025-10-09 210230.png
 )**
 ---
 
+---
+```
+```
 ## Kesimpulan
 Dengan mempelajari konsep class dan object, mahasiswa dapat memahami bagaimana data dan fungsi dapat dikemas dalam satu kesatuan.
 Penerapan enkapsulasi membuat data lebih aman dan pengelolaan stok menjadi lebih terstruktur serta mudah dikembangkan.
-
+```
 ---
-
+```
 ## Quiz
 1. Mengapa atribut sebaiknya dideklarasikan sebagai private dalam class?
 Jawaban:
@@ -157,3 +159,7 @@ Dengan cara ini, data hanya dapat dimodifikasi sesuai logika yang telah ditentuk
 Jawaban:
 Class Produk dapat menjadi dasar dari sistem POS (Point of Sale) dengan menambahkan fitur tambahan seperti kategori produk, harga diskon, laporan penjualan, atau manajemen inventori.
 Struktur class yang modular dan terenkapsulasi memudahkan pengembangan lebih lanjut tanpa harus mengubah struktur utama program.
+<<<<<<< HEAD
+=======
+```
+>>>>>>> d51bb77 (upload tugas)

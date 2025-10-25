@@ -159,7 +159,6 @@ Dengan cara ini, data hanya dapat dimodifikasi sesuai logika yang telah ditentuk
 Jawaban:
 Class Produk dapat menjadi dasar dari sistem POS (Point of Sale) dengan menambahkan fitur tambahan seperti kategori produk, harga diskon, laporan penjualan, atau manajemen inventori.
 Struktur class yang modular dan terenkapsulasi memudahkan pengembangan lebih lanjut tanpa harus mengubah struktur utama program.
-<<<<<<< HEAD
-=======
+
 ```
->>>>>>> d51bb77 (upload tugas)
+

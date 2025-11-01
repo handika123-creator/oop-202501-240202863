@@ -132,7 +132,7 @@ public class MainProduk {
 -Class MainProduk menjadi driver class untuk menjalankan seluruh logika.
 -Tidak ada error saat program dijalankan.
 -Kendala kecil: perlu memastikan struktur package sesuai agar import berjalan lancar di IDE seperti IntelliJ atau Eclipse.
-)**
+
 ---
 
 ---

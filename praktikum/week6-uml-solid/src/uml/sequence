@@ -1,0 +1,48 @@
+@startuml
+autonumber
+actor Kasir as K
+boundary CheckoutUI as UI
+control TransactionService as TS
+participant "PaymentMethod\n<<Interface>>" as PM
+entity ProductRepository as PR
+
+K -> UI : Klik "Bayar" (Total: 150.000)
+UI -> TS : processTransaction(orderId, paymentType)
+activate TS
+
+note right of TS
+  Factory Pattern atau IF Logic 
+  memilih strategi pembayaran
+  (Cash atau EWallet)
+end note
+
+TS -> TS : getPaymentStrategy(paymentType)
+TS -> PM : pay(amount)
+activate PM
+
+alt Pembayaran Sukses
+    PM --> TS : return true
+    
+    loop for each item
+        TS -> PR : updateStock(itemId, qty)
+        activate PR
+        PR --> TS : done
+        deactivate PR
+    end
+    
+    TS -> PR : saveTransaction(record)
+    activate PR
+    PR --> TS : saved
+    deactivate PR
+    
+    TS --> UI : Transaksi Berhasil
+    UI --> K : Tampilkan Struk
+else Pembayaran Gagal
+    PM --> TS : return false
+    deactivate PM
+    TS --> UI : Error: Pembayaran Gagal
+    UI --> K : Tampilkan Pesan Kesalahan
+end
+
+deactivate TS
+@enduml

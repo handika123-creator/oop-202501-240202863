@@ -1,0 +1,56 @@
+@startuml
+|Kasir|
+start
+:Pilih Produk;
+:Input Produk ke Keranjang;
+repeat
+    :Tambah produk lain?;
+    if (Ya) then (ya)
+        :Input Produk ke Keranjang;
+    else (tidak)
+        break
+    endif
+repeat while (Produk bertambah)
+
+:Konfirmasi Checkout;
+
+|Sistem Agri-POS|
+:Hitung Total Belanja;
+:Tampilkan Total & Pilihan Bayar;
+
+|Kasir|
+:Pilih Metode Pembayaran;
+
+if (Metode Bayar?) then (Tunai)
+    :Input Nominal Uang;
+    |Sistem Agri-POS|
+    if (Uang Cukup?) then (Ya)
+        :Proses Transaksi;
+    else (Tidak)
+        :Tampilkan Error\n"Uang Kurang";
+        stop
+    endif
+else (E-Wallet)
+    |Kasir|
+    :Input No HP & OTP;
+    |External Payment Gateway|
+    :Validasi Akun & Saldo;
+    if (Valid?) then (Ya)
+        |Sistem Agri-POS|
+        :Terima Konfirmasi Sukses;
+    else (Tidak)
+        |Sistem Agri-POS|
+        :Tampilkan Error\n"Gagal Validasi";
+        stop
+    endif
+endif
+
+|Sistem Agri-POS|
+:Kurangi Stok Produk;
+:Simpan Data Transaksi;
+:Cetak Struk;
+
+|Kasir|
+:Terima Struk;
+stop
+@enduml

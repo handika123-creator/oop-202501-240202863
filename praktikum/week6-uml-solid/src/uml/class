@@ -1,0 +1,89 @@
+@startuml
+
+package "com.upb.agripos.model" {
+    class Produk {
+        -String kode
+        -String nama
+        -double harga
+        -int stok
+        +tambahStok(int)
+        +kurangiStok(int)
+        +getInfo() String
+    }
+
+    class Benih extends Produk {
+        -String varietas
+        +getInfo()
+    }
+    class Pupuk extends Produk {
+        -String jenis
+        +getInfo()
+    }
+    class AlatPertanian extends Produk {
+        -String material
+        +getInfo()
+    }
+    class ObatHama extends Produk {
+        -String kandungan
+        +getInfo()
+    }
+}
+
+package "com.upb.agripos.payment" {
+    interface PaymentMethod {
+        +pay(amount: double) : boolean
+        +biaya() : double
+    }
+
+    interface Receiptable {
+        +cetakStruk() : String
+    }
+    
+    interface Validatable {
+        +validasi() : boolean
+    }
+
+    class CashPayment implements PaymentMethod, Receiptable {
+        -double cashAmount
+        +pay()
+        +cetakStruk()
+    }
+
+    class EWalletPayment implements PaymentMethod, Receiptable, Validatable {
+        -String phone
+        -String otp
+        +pay()
+        +cetakStruk()
+        +validasi()
+    }
+}
+
+package "com.upb.agripos.service" {
+    class TransactionService {
+        -PaymentMethod method
+        -ProductRepository repo
+        +setPaymentMethod(PaymentMethod)
+        +checkout()
+    }
+    
+    interface ProductRepository {
+        +save(Produk)
+        +findById(String) : Produk
+        +update(Produk)
+    }
+}
+
+package "com.upb.agripos.repository" {
+    class PostgresProductRepository implements ProductRepository {
+        +save(Produk)
+        +findById(String)
+        +update(Produk)
+    }
+}
+
+' Relasi SOLID
+TransactionService --> PaymentMethod : uses (OCP)
+TransactionService --> ProductRepository : depends on (DIP)
+TransactionService ..> Produk : manages
+
+@enduml

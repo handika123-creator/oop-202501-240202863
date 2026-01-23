@@ -1,11 +1,11 @@
-package main.java.com.upb.agripos;
+package com.upb.agripos;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.util.List;
-import main.java.com.upb.agripos.dao.ProductDAO;
-import main.java.com.upb.agripos.dao.ProductDAOImpl;
-import main.java.com.upb.agripos.model.Product;
+import com.upb.agripos.dao.ProductDAO;
+import com.upb.agripos.dao.ProductDAOImpl;
+import com.upb.agripos.model.Product;
 
 public class MainDAOTest {
     public static void main(String[] args) {
